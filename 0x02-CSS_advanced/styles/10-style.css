@@ -1,4 +1,4 @@
-/* Remove all decorations of anchors */
+/* Create new variable and use in header sections */
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -23,6 +23,7 @@ html {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
 }
 
 body {
@@ -49,6 +50,10 @@ a {
 
 .card-category {
     color: var(--color-primary);
+}
+
+.section-header {
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
