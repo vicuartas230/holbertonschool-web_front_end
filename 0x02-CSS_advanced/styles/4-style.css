@@ -1,6 +1,6 @@
 /* Creation of font-family variables and use in body and in the headings */
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 :root {

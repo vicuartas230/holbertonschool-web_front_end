@@ -1,6 +1,6 @@
 /* Remove all decorations of anchors */
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 

@@ -1,6 +1,6 @@
 /* Adding new fonts to font variables and using in the full page */
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 

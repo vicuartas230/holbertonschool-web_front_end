@@ -1,6 +1,6 @@
 /* Creation of color variables and using in body and text. */
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 :root {

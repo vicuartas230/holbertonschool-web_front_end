@@ -1,7 +1,7 @@
 /* Declarations to set foreground colors of body, anchors
     and the elements with classes visually-hidden, card-category and section-tagline */
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 body {
