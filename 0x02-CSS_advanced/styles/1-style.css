@@ -1,0 +1,4 @@
+/* The scroll is as fluid as possible. */
+html {
+    scroll-behavior: auto;
+}

@@ -1,0 +1,25 @@
+/* Declarations to set foreground colors of body, anchors
+    and the elements with classes visually-hidden, card-category and section-tagline */
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    color: #161616;
+}
+
+a {
+    color: #161616;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: #D73953;
+}
+
+.section-tagline {
+    color: #D73953;
+}
