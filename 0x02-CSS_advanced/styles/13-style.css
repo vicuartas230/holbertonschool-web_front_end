@@ -1,4 +1,4 @@
-/* Create new variables and use in title sections */
+/* Format anchors */
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+a:visited {
+    font-style: italic;
 }
 
 a:hover {
