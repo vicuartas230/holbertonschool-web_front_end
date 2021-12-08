@@ -138,6 +138,15 @@ a:active {
     text-align: center;
 }
 
+.nav-link {
+    display: block;
+    padding: 0.5em 1em;
+}
+
+.nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
 .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -145,13 +154,4 @@ a:active {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-}
-
-.nav .nav-link {
-    display: block;
-    padding: 0.5em 1em;
-}
-
-.nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
 }
