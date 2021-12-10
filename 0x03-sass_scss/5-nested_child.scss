@@ -1,0 +1,7 @@
+/* This file assigns text color to red class inside the body */
+body {
+    color: #3D3D3D;
+    > .red {
+        color: #FF0000;
+    }
+}
