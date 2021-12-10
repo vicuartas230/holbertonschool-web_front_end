@@ -1,0 +1,6 @@
+/* This file creates H* tags, where ‘*’ is the size of the font used. */
+@for $heading from 1 to 6 {
+    h#{$heading} {
+        font-size: #{$heading}px;
+    }
+}
