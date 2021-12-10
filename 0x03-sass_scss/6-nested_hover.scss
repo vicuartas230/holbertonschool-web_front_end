@@ -1,7 +1,7 @@
 /* This file assigns text color when hover over button */
 button {
     color: #FF0000;
-    :hover {
+    &:hover {
         color: #00FF00;
     }
 }
