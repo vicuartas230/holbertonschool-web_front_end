@@ -1,0 +1,7 @@
+/* This file use foreach to create a class */
+@import '11-photos';
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
