@@ -1,8 +1,8 @@
 /* Format anchors */
 @import "normalize.css";
 
-*::after, *::before {
-    box-sizing: content-box;
+*, *::after, *::before {
+    box-sizing: border-box;
 }
 
 html {
