@@ -1,6 +1,8 @@
-/* Add box sizing declaration */
-* {
-    box-sizing: border-box;
+/* Format anchors */
+@import "normalize.css";
+
+*::after, *::before {
+    box-sizing: content-box;
 }
 
 html {
@@ -46,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
