@@ -1,5 +1,7 @@
 /* Creation of new custom properties and use to styling nav menu. */
-* {
+@import "normalize.css";
+
+*, *::after, *::before {
     box-sizing: border-box;
 }
 
